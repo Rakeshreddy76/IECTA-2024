@@ -12,6 +12,48 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.key{
+  text-align: center;
+}
+.gradd {
+  text-align: center;
+  /* height: 40px;
+  background-image: linear-gradient(to-right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)); */
+} 
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: rgb(203, 217, 217);
+}
+
+.boxx{
+  /* background-color: rgb(39, 67, 151); */
+  width: 780px;
+  border: 10px solid rgb(236, 243, 236);
+  padding: 20px;
+  margin: 20px;
+  opacity: 1.9;
+}
+.com1{
+  color: rgb(140, 14, 190);
+}
+.backk{
+  color: rgb(76, 228, 231);
+}
+
+.backk1{
+  color: rgb(111, 55, 190);
+}
+.backkk{
+  color: rgb(218, 78, 78);
+}
+
+.custom-text-style {
+  color: rgb(30, 129, 171);
+  justify-content: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
 
 .App-header {
   background-color: #282c34;
