@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function ContactUs() {
   return (
@@ -7,7 +7,7 @@ export default function ContactUs() {
         <h2>Contact Us</h2>
         <form>
           <div className="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label className="dss" for="exampleFormControlInput1">Email address</label>
             <input
               type="email"
               className="form-control"
@@ -26,8 +26,14 @@ export default function ContactUs() {
             </select>
           </div> */}
           <div className="form-group">
-            <label for="exampleFormControlTextarea1">Elaborate Your Concern</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label className="dss" for="exampleFormControlTextarea1">
+              Elaborate Your Concern
+            </label>
+            <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
           </div>
           <form>
             <button type="submit" className="btn btn-primary my-2">
@@ -36,16 +42,15 @@ export default function ContactUs() {
           </form>
         </form>
       </div>
-
       <footer className="container">
-        <p className="float-end">
+        <p className="float-end" >
           <a href="#">Back to top</a>
         </p>
-        <p>
-          © 2020–2024 Rakesh sols, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a>
+        <p className="dss">
+          © 2020–2024 Rakesh sols, Inc. · <a href="#">Privacy</a> ·{" "}
+          <a href="#">Terms</a>
         </p>
       </footer>
     </div>
   );
 }
-
