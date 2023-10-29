@@ -137,7 +137,7 @@ export default function Registration() {
                         </ul>
                     </div>
                     <div className="container">
-                        <h1 style={{ color: 'rgb(69, 80, 204)' }}>_______________________________________________________________________________</h1>
+                        <h1 style={{ color: 'rgb(69, 80, 204)' }}>______________________________________________________________________</h1>
                     </div>
                     <div className="container">
                         <div className="dss">
